@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Unibitsampletest]">
+  <test name="HomePageTest(failed)">
+    <classes>
+      <class name="com.unibet.Testcases.HomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="ValidateRegistrationLink"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.unibet.Testcases.HomePageTest -->
+    </classes>
+  </test> <!-- HomePageTest(failed) -->
+</suite> <!-- Failed suite [Unibitsampletest] -->

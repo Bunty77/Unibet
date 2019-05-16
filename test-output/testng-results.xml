@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-05-16T08:40:28Z" name="Unibitsampletest" finished-at="2019-05-16T08:41:33Z" duration-ms="65694">
+    <groups>
+    </groups>
+    <test started-at="2019-05-16T08:40:28Z" name="HomePageTest" finished-at="2019-05-16T08:41:33Z" duration-ms="65694">
+      <class name="com.unibet.Testcases.SearchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.unibet.Testcases.SearchTest@40005471]" started-at="2019-05-16T14:11:09Z" name="setup" finished-at="2019-05-16T14:11:27Z" duration-ms="17983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validatesearchResult()[pri:0, instance:com.unibet.Testcases.SearchTest@40005471]" started-at="2019-05-16T14:11:27Z" name="validatesearchResult" finished-at="2019-05-16T14:11:33Z" duration-ms="6614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatesearchResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.unibet.Testcases.SearchTest@40005471]" started-at="2019-05-16T14:11:33Z" name="tearDown" finished-at="2019-05-16T14:11:33Z" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.unibet.Testcases.SearchTest -->
+      <class name="com.unibet.Testcases.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.unibet.Testcases.HomePageTest@61322f9d]" started-at="2019-05-16T14:10:28Z" name="setup" finished-at="2019-05-16T14:10:37Z" duration-ms="9633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ValidateRegistrationLink()[pri:0, instance:com.unibet.Testcases.HomePageTest@61322f9d]" started-at="2019-05-16T14:10:37Z" name="ValidateRegistrationLink" finished-at="2019-05-16T14:10:41Z" duration-ms="3783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateRegistrationLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.unibet.Testcases.HomePageTest@61322f9d]" started-at="2019-05-16T14:10:41Z" name="tearDown" finished-at="2019-05-16T14:10:41Z" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.unibet.Testcases.HomePageTest@61322f9d]" started-at="2019-05-16T14:10:41Z" name="setup" finished-at="2019-05-16T14:10:53Z" duration-ms="11768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="homepageTitleTest()[pri:0, instance:com.unibet.Testcases.HomePageTest@61322f9d]" started-at="2019-05-16T14:10:53Z" name="homepageTitleTest" finished-at="2019-05-16T14:10:53Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.unibet.Testcases.HomePageTest@61322f9d]" started-at="2019-05-16T14:10:53Z" name="tearDown" finished-at="2019-05-16T14:10:53Z" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.unibet.Testcases.HomePageTest@61322f9d]" started-at="2019-05-16T14:10:53Z" name="setup" finished-at="2019-05-16T14:11:09Z" duration-ms="15533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="homepagelogoTest()[pri:0, instance:com.unibet.Testcases.HomePageTest@61322f9d]" started-at="2019-05-16T14:11:09Z" name="homepagelogoTest" finished-at="2019-05-16T14:11:09Z" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepagelogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.unibet.Testcases.HomePageTest@61322f9d]" started-at="2019-05-16T14:11:09Z" name="tearDown" finished-at="2019-05-16T14:11:09Z" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.unibet.Testcases.HomePageTest -->
+    </test> <!-- HomePageTest -->
+  </suite> <!-- Unibitsampletest -->
+</testng-results>
