@@ -1,5 +1,8 @@
 package com.unibet.Pages;
 
+import java.util.List;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -11,15 +14,15 @@ import com.unibet.Base.TestBase;
 public class Search extends TestBase
 {
 
-	@FindBy(xpath ="(//div[@class='DyuNWRwk8LaMul8OtByVk '])[3]")
-	WebElement searchlogo;
+	@FindBy(xpath ="//input[@id='twotabsearchtextbox']")
+	WebElement searchText;
 	
 	
-	@FindBy(xpath ="//input[@class='_2wd9gLhmkYlXBxVhBXNH6i']")
-	WebElement searchlogoText;
+	@FindBy(xpath ="//input[@value='Go']")
+	WebElement searchClick;
 	
-	@FindBy(xpath ="(//h1[text()='ATP '])[1]")
-	WebElement TextSearch;
+	@FindBy(xpath ="(//div[@class='a-section a-spacing-medium'])[4]")
+	WebElement Macbook;
 	
 	
 	
@@ -32,8 +35,8 @@ public class Search extends TestBase
 	
 	public void clickSearch() throws InterruptedException
 	{
-		searchlogo.click();
-		Thread.sleep(3000);
+		searchClick.click();
+		Thread.sleep(7000);
 		
 	}
 	
@@ -41,17 +44,20 @@ public class Search extends TestBase
 	public void SearchText() throws InterruptedException
 	{
 		
-		searchlogoText.sendKeys(prop.getProperty("sportname"));
-		searchlogoText.sendKeys(Keys.ENTER);
-		Thread.sleep(3000);
+		searchText.sendKeys(prop.getProperty("laptop"));
+		
+		Thread.sleep(4000);
 		
 		
 	}
 	
-	public String getText()
+	public void clickmacbook(String Str)
 	{
-		String io =TextSearch.getText();
-		return io;
+		
+		List<WebElement> li = driver.findElements(By.xpath("//h2/a/span[contains(text(),'"+Str+"')]"));
+		li.get(1).click();
+		
+		
 	}
 	
 	

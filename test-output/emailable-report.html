@@ -31,21 +31,119 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">HomePageTest</td><td class="numi">4</td><td class="numi">4</td><td class="numi">0</td><td class="numi">0</td><td class="numi">65.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">HomePageTest</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi_attn">2</td><td class="numi">45.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="4">HomePageTest &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="3">com.unibet.Testcases.HomePageTest</td><td><a href="#m1"><b>ValidateRegistrationLink</b>  </a></td><td class="numi">1</td><td>1557996037794</td><td class="numi">3783</td></tr><tr class="passedodd"><td><a href="#m2"><b>homepageTitleTest</b>  </a></td><td class="numi">1</td><td>1557996053431</td><td class="numi">12</td></tr><tr class="passedodd"><td><a href="#m3"><b>homepagelogoTest</b>  </a></td><td class="numi">1</td><td>1557996069055</td><td class="numi">31</td></tr>
-<tr class="passedeven"><td rowspan="1">com.unibet.Testcases.SearchTest</td><td><a href="#m4"><b>validatesearchResult</b>  </a></td><td class="numi">1</td><td>1557996087148</td><td class="numi">6614</td></tr>
+<tr><th colspan="4">HomePageTest &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="3">com.unibet.Testcases.HomePageTest</td><td><a href="#m1"><b>setup</b>  </a></td><td class="numi">1</td><td>1559123602081</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m2"><b>setup</b>  </a></td><td class="numi">1</td><td>1559123602081</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m3"><b>setup</b>  </a></td><td class="numi">1</td><td>1559123602081</td><td class="numi">0</td></tr>
+<tr><th colspan="4">HomePageTest &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="2">com.unibet.Testcases.HomePageTest</td><td><a href="#m4"><b>validateAmazon</b>  </a></td><td class="numi">1</td><td>1559123566743</td><td class="numi">13088</td></tr><tr class="failedodd"><td><a href="#m5"><b>validatesearchResult</b>  </a></td><td class="numi">1</td><td>1559123586951</td><td class="numi">15039</td></tr>
+<tr><th colspan="4">HomePageTest &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="2">com.unibet.Testcases.HomePageTest</td><td><a href="#m6"><b>tearDown</b>  </a></td><td class="numi">1</td><td>1559123605536</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m7"><b>tearDown</b>  </a></td><td class="numi">1</td><td>1559123605536</td><td class="numi">0</td></tr>
+<tr><th colspan="4">HomePageTest &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="1">com.unibet.Testcases.HomePageTest</td><td><a href="#m8"><b>cartAction</b>  </a></td><td class="numi">1</td><td>1559123605533</td><td class="numi">2</td></tr>
 </table>
 <h1>HomePageTest</h1>
-<h2 id="m1">com.unibet.Testcases.SearchTest:validatesearchResult</h2>
+<h2 id="m1">com.unibet.Testcases.HomePageTest:setup</h2>
+<div style="padding-left:3em">
+<p>no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;mlinpu1502-0035.springernature.com&apos;, ip: &apos;fe80:0:0:0:4b:9599:500e:918d%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;11.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591059 (a3d9684d10d61a..., userDataDir: /var/folders/nv/95fh8nv97rl...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55400}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: b6bddff0b942e7993a041abddc81f985
+*** Element info: {Using=id, value=ap_email}</p>
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)
+<br/>at org.openqa.selenium.By$ById.findElement(By.java:188)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+<br/>at com.unibet.Base.TestBase.initialization(TestBase.java:64)
+<br/>at com.unibet.Testcases.HomePageTest.setup(HomePageTest.java:41)
+<br/>27 lines not shown
+</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">com.unibet.Testcases.HomePageTest:ValidateRegistrationLink</h2>
+<h2 id="m2">com.unibet.Testcases.HomePageTest:validatesearchResult</h2>
+<div style="padding-left:3em">
+<p>no such window: window was already closed
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;mlinpu1502-0035.springernature.com&apos;, ip: &apos;fe80:0:0:0:4b:9599:500e:918d%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;11.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591059 (a3d9684d10d61a..., userDataDir: /var/folders/nv/95fh8nv97rl...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55312}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: ff61540dd815dd400b58ac783bf6a306
+*** Element info: {Using=xpath, value=//h2/a/span[contains(text(),&apos;Apple MacBook Pro&apos;)]}</p>
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:349)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:310)
+<br/>at com.unibet.Pages.Search.clickmacbook(Search.java:57)
+<br/>at com.unibet.Testcases.HomePageTest.validatesearchResult(HomePageTest.java:75)
+<br/>25 lines not shown
+</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m3">com.unibet.Testcases.HomePageTest:homepagelogoTest</h2>
+<h2 id="m3">com.unibet.Testcases.HomePageTest:validateAmazon</h2>
+<div style="padding-left:3em">
+<p>unknown error: Element &lt;select name=&quot;quantity&quot; autocomplete=&quot;off&quot; id=&quot;quantity&quot; tabindex=&quot;-1&quot; class=&quot;a-native-dropdown&quot;&gt;...&lt;/select&gt; is not clickable at point (1217, 336). Other element would receive the click: &lt;span class=&quot;a-dropdown-label&quot;&gt;...&lt;/span&gt;
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.42.591059 (a3d9684d10d61aa0c45f6723b327283be1ebaad8),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;mlinpu1502-0035.springernature.com&apos;, ip: &apos;fe80:0:0:0:4b:9599:500e:918d%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;11.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591059 (a3d9684d10d61a..., userDataDir: /var/folders/nv/95fh8nv97rl...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55224}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 2fd367db3fc38909128ab84e3d981137</p>
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+<br/>at com.unibet.Pages.HomePage.selectdropdown(HomePage.java:65)
+<br/>at com.unibet.Testcases.HomePageTest.validateAmazon(HomePageTest.java:62)
+<br/>25 lines not shown
+</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m4">com.unibet.Testcases.HomePageTest:homepageTitleTest</h2>
+<h2 id="m4">com.unibet.Testcases.HomePageTest:tearDown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.unibet.Testcases.HomePageTest:cartAction</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

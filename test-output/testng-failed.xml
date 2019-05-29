@@ -5,9 +5,11 @@
     <classes>
       <class name="com.unibet.Testcases.HomePageTest">
         <methods>
+          <include name="validatesearchResult"/>
           <include name="setup"/>
-          <include name="ValidateRegistrationLink"/>
           <include name="tearDown"/>
+          <include name="cartAction"/>
+          <include name="validateAmazon"/>
         </methods>
       </class> <!-- com.unibet.Testcases.HomePageTest -->
     </classes>
