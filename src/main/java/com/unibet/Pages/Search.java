@@ -11,6 +11,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.unibet.Base.TestBase;
 
+import io.qameta.allure.Step;
+
 public class Search extends TestBase
 {
 
@@ -25,7 +27,7 @@ public class Search extends TestBase
 	WebElement Macbook;
 	
 	
-	
+	//Actions
 	
 	public Search() 
 	{
@@ -33,6 +35,7 @@ public class Search extends TestBase
 	}
 	
 	
+	@Step("Click Search Steps")
 	public void clickSearch() throws InterruptedException
 	{
 		searchClick.click();
@@ -40,7 +43,7 @@ public class Search extends TestBase
 		
 	}
 	
-	
+	@Step("Enter Mackbook Pro Value in SearchBox Steps")
 	public void SearchText() throws InterruptedException
 	{
 		
@@ -50,7 +53,7 @@ public class Search extends TestBase
 		
 		
 	}
-	
+	@Step("Click On MacBook Pro Result Steps")
 	public void clickmacbook(String Str)
 	{
 		

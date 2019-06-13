@@ -10,6 +10,8 @@ import org.openqa.selenium.support.ui.Select;
 
 import com.unibet.Base.TestBase;
 
+import io.qameta.allure.Step;
+
 public class CartPage extends TestBase
 {
 
@@ -17,23 +19,28 @@ public class CartPage extends TestBase
 	WebElement Cart;
 	
 	
+	//Actions
+	
+	
 	public CartPage()
 	{
 		PageFactory.initElements(driver, this);
 	}
 	
-	
+	@Step("Click on Cart Logo Steps")
 	public void clickCartlogo()
 	{
 		Cart.click();
 	}
 	
+	@Step("Remove Cart Item Step")
 	public void removecartitem() throws InterruptedException
 	{
 		driver.findElement(By.xpath("(//input[@value='Delete'])[2]")).click();
 		Thread.sleep(4000);
 	}
 	
+	@Step("Click on DropDown Item Steps")
 	public void dropdown() throws InterruptedException
 	{
 		Thread.sleep(2000);

@@ -10,6 +10,8 @@ import org.openqa.selenium.support.ui.Select;
 
 import com.unibet.Base.TestBase;
 
+import io.qameta.allure.Step;
+
 public class HomePage extends TestBase
 {
 	
@@ -38,18 +40,19 @@ public class HomePage extends TestBase
 		
 		//Actions:
 		
-		
+		@Step("Click on Department Steps")
 		public void clickDepartment()
 		{
 			departments.click();
 		}
 		
-		
+		@Step("Click on HeadPhone Steps")
 		public void clickHeadPhones()
 		{
 			Headphones.click();
 		}
 		
+		@Step("Click on First HeadPhone Result Steps")
 		public void viewHeadPhone() throws InterruptedException
 		{
 			
@@ -60,6 +63,7 @@ public class HomePage extends TestBase
 			
 		}
 		
+		@Step("Select HeadPhone Qualtity Steps")
 		public void selectdropdown(String value) throws InterruptedException
 		{
 			driver.findElement(By.id("quantity")).click();
@@ -69,6 +73,7 @@ public class HomePage extends TestBase
 			
 		}
 		
+		@Step("Click on Add To Cart Steps")
 		public void AddtoCart() throws InterruptedException 
 		{
 			AddtoCart.click();

@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Command line suite]" verbose="0">
-  <test name="Command line test(failed)">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test name="Surefire test(failed)">
     <classes>
       <class name="com.unibet.Testcases.HomePageTest">
         <methods>
           <include name="validatesearchResult"/>
           <include name="setup"/>
-          <include name="teardown"/>
-          <include name="cartAction"/>
-          <include name="validateAmazon"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- com.unibet.Testcases.HomePageTest -->
       <class name="com.unibet.Testcases.SearchTest">
         <methods>
-          <include name="validatesearchResult"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.unibet.Testcases.SearchTest -->
     </classes>
-  </test> <!-- Command line test(failed) -->
-</suite> <!-- Failed suite [Command line suite] -->
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

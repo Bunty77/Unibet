@@ -1,5 +1,5 @@
-com/unibet/Utils/TestUtil.class
 com/unibet/Pages/Search.class
 com/unibet/Pages/HomePage.class
 com/unibet/Pages/CartPage.class
+com/unibet/Utils/TestUtil.class
 com/unibet/Base/TestBase.class
